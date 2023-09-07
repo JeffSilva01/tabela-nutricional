@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="bg-primary-200 text-dark relative -z-20 h-screen">
+    <div className="relative h-screen bg-primary-200 text-dark">
       <div className="mx-auto flex max-w-md items-center justify-between">
         <button
           type="button"
-          className="bg-primary-200 m-4 flex h-10 w-10 items-center justify-center rounded-full shadow-[0px_2px_4px_0px_rgba(59,_171,_30,_0.25)]"
+          className="m-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-200 shadow-[0px_2px_4px_0px_rgba(59,_171,_30,_0.25)]"
         >
           <ArrowLeft />
         </button>
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <button
           type="button"
-          className="bg-primary-500 mx-auto mt-8 flex h-14 w-full max-w-md items-center justify-center rounded-2xl text-white"
+          className="mx-auto mt-8 flex h-14 w-full max-w-md items-center justify-center rounded-2xl bg-primary-500 text-white"
         >
           Mais detalhes
         </button>

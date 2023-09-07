@@ -9,12 +9,12 @@ export function Levels({ name, quantity }: LevelsProps) {
       <span className="text-sm font-semibold">{name}</span>
       <span className="place-self-end text-sm">{quantity}</span>
       <div className="col-span-2 grid grid-cols-6 gap-2">
-        <div className="bg-primary-500 h-2 rounded-full" />
-        <div className="bg-primary-500 h-2 rounded-full" />
-        <div className="bg-primary-500 h-2 rounded-full" />
-        <div className="bg-primary-200 h-2 rounded-full" />
-        <div className="bg-primary-200 h-2 rounded-full" />
-        <div className="bg-primary-200 h-2 rounded-full" />
+        <div className="h-2 rounded-full bg-primary-500"></div>
+        <div className="h-2 rounded-full bg-primary-500"></div>
+        <div className="h-2 rounded-full bg-primary-500"></div>
+        <div className="h-2 rounded-full bg-primary-200"></div>
+        <div className="h-2 rounded-full bg-primary-200"></div>
+        <div className="h-2 rounded-full bg-primary-200"></div>
       </div>
     </div>
   )
